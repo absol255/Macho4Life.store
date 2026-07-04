@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(180deg, #4069c1, #e54ae0);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+.subtitle {
+    color: #cbd5e1;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 20px;
+    backdrop-filter: blur(8px);
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.05);
+}
+
+.balance {
+    color: rgb(245, 28, 245);
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.drac {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 20px;
+    backdrop-filter: blur(8px);
+    display: inline-block;
+    margin: 5px;
+}
+
+.images {
+    max-width: 323px;
+    max-height: 265px;
+}
+
+.shop-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.product-card,
+.pending-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    padding: 20px;
+    backdrop-filter: blur(8px);
+}
+
+.product-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
+}
+
+.product-price {
+    color: rgb(245, 28, 245);
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.product-meta {
+    color: #cbd5e1;
+    margin: 4px 0;
+}
+
+.product-msg {
+    min-height: 1.2em;
+    margin-top: 8px;
+}
+
+.listing-row {
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.05);
+}
+
+#pending-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#approved-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

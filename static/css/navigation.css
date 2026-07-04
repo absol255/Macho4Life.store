@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'jetbrains_mono';
+    src: url('/static/fonts/jetbrains-mono-webfont.eot');
+    src: url('/static/fonts/jetbrains-mono-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/static/fonts/jetbrains-mono-webfont.woff') format('woff'),
+        url('/static/fonts/jetbrains-mono-webfont.ttf') format('truetype'),
+        url('/static/fonts/jetbrains-mono-webfont.svg#jetbrains_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#logo {
+    text-align: center;
+    color: #cbd5e1;
+    font-family: jetbrains-mono, 'Courier New', monospace;
+}
+
+nav {
+    text-align: center;
+}
+
+.nav {
+    margin: 5px;
+    font-size: x-large;
+    font-family: jetbrains-mono, 'Courier New', monospace;
+    font-weight: 550;
+}
+
+.nav:visited {
+    color: rgb(245, 28, 245);
+    text-decoration: none;
+}
+
+.nav:link {
+    color: rgb(245, 28, 245);
+    text-decoration: none;
+}
+
+.nav:hover {
+    color: darkturquoise;
+    text-decoration: underline;
+}
+
+.nav:active {
+    color: darkorange;
+    text-decoration: underline;
+}

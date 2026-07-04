@@ -1,0 +1,7 @@
+flask
+flask-login
+flask-sqlalchemy
+python-dotenv
+werkzeug
+sqlalchemy
+psycopg2-binary

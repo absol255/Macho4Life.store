@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'jetbrains_mono';
+    src: url('/static/fonts/jetbrains-mono-webfont.eot');
+    src: url('/static/fonts/jetbrains-mono-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/static/fonts/jetbrains-mono-webfont.woff') format('woff'),
+        url('/static/fonts/jetbrains-mono-webfont.ttf') format('truetype'),
+        url('/static/fonts/jetbrains-mono-webfont.svg#jetbrains_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
