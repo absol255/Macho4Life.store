@@ -19,20 +19,10 @@
     border-color: rgb(208, 231, 252);
 }
 
-.button:visited {
-    width: 150px; 
-    min-height: 50px;
-    background: rgb(27, 69, 105);
-    margin: 10px;
-    color: aliceblue;
-    border-width: 2px;
-    border-color: rgb(208, 231, 252);
-}
-
 .button:active {
     width: 150px; 
     min-height: 50px;
-    background: rgb(103, 169, 228);
+    background: rgb(140, 201, 255);
     margin: 10px;
     color: aliceblue;
     border-width: 2px;
