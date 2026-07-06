@@ -98,9 +98,9 @@ def unauthorized():
 def index():
     return render_template("index.html")
 
-@app.route("/test")
+@app.route("/otherminiwebsites")
 def test():
-    return render_template("test.html")
+    return render_template("otherminiwebsites.html")
 
 def _config_error():
     if not app.config.get("SECRET_KEY"):
